@@ -2,6 +2,7 @@
 
 * Студент: [Родион Егоров](https://up.htmlacademy.ru/htmlcss-individual/2/user/796081).
 * Наставник: `Неизвестно ещё`.
+* Сайт [Мой проект - Седона](https://rodione.github.io/796081-sedona-2/)
 
 ---
 
