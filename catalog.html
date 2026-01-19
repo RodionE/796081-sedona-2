@@ -21,7 +21,7 @@
           <a href="#" class="navigation_link">О Седоне</a>
         </li>
         <li class="navigation_item">
-          <a href="#" class="navigation_link navigation_link-current">Гостиницы</a>
+          <a class="navigation_link navigation_link-current">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation_user">
@@ -125,9 +125,8 @@
     <section class="main-search">
       <h2 class="visually-hidden">Поиск гостиниц</h2>
       <section class="found">
-        <p class="found-text">Найдено гостиниц:
-          <span class="found-count">38</span>
-        </p>
+        <p class="found-text">Найдено гостиниц:</p>
+        <span class="found-count">38</span>
       </section>
 
       <select class="price-control">
@@ -137,17 +136,17 @@
 
       <ul class="view_list">
         <li class="view_item">
-          <a href="#" class="view_link view_lik_selected">
+          <a href="catalog.html?view=tile" class="view_link view_link_selected">
             <span class="visually-hidden">Показать таблицей</span>
           </a>
         </li>
         <li class="view_item">
-          <a href="#" class="view_link link_item">
+          <a href="catalog.html?view=card" class="view_link link_item">
             <span class="visually-hidden">Показать по одной</span>
           </a>
         </li>
         <li class="view_item">
-          <a href="#" class="view_link link_list">
+          <a href="catalog.html?view=list" class="view_link link_list">
             <span class="visually-hidden">Показать списком</span>
           </a>
         </li>
@@ -255,10 +254,10 @@
       <div class="subscribe_block">
         <h2 class="subscribe_title">Подпишитесь на рассылку</h2>
         <p class="subscribe_slogan">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form action="https://echo.htmlacademy.ru/" method="post" class="subscribe_form">
+        <form action="https://echo.htmlacademy.ru/" method="get" class="subscribe_form">
           <p class="subscribe_form-date">
             <label for="subscribe_email" class="visually-hidden">Ваш e-mail</label>
-            <input type="text" placeholder="Ваш e-mail" id="subscribe_email" class="email email-bg">
+            <input type="email" placeholder="Ваш e-mail" id="subscribe_email" class="email email-bg">
             <button class="button" type="submit">Подписаться</button>
           </p>
         </form>
@@ -287,7 +286,7 @@
 
     <a href="tel:+78128121212" class="social_link-contact">+7 (812) 812-12-12</a>
 
-    <a href="https://htmlacademy.ru" class="social_logo">
+    <a href="https://htmlacademy.ru/intensive/htmlcss" class="social_logo">
       <span class="visually-hidden">Логотип Академии</span>
     </a>
   </footer>
